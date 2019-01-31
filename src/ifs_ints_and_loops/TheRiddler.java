@@ -17,7 +17,7 @@ if(color.equals("4 kids get an apple (one apple for each one of them) and the fi
 else {
 	JOptionPane.showMessageDialog(null, "WRONG.");
 
-		
+}
 		
 		
 		// 1. Make a variable to hold the score
@@ -32,6 +32,6 @@ else {
 
 		// 2. Make a pop up to show the score.
 		
-	}
-}
+	
+
 
