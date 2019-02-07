@@ -9,4 +9,4 @@ public class Remarkable {
 					JOptionPane.showMessageDialog(null, "Your super power is speed!");
 					}
 					
-	}
+ 

@@ -9,13 +9,42 @@ public class TheRiddler {
 	public static void main(String[] args) {
 int score=0;
 
-String color = JOptionPane.showInputDialog("A basket contains 5 apples. Do you know how to divide them among 5 kids so that each one has an apple and one apple stays in the basket?");
-JOptionPane.showInputDialog("What is your answer");
-if(color.equals("4 kids get an apple (one apple for each one of them) and the fifth kid gets an apple with the basket still containing the apple."))
+JOptionPane.showMessageDialog(null,"What has hands but can not clap?");
+String answer = JOptionPane.showInputDialog("What is your answer");
+if(answer.equals("a clock")) {
 	JOptionPane.showMessageDialog(null, "CORRECT");
+	JOptionPane.showMessageDialog(null,"Your score is...");
+JOptionPane.showMessageDialog(null,score=2);
 
-else {
+
+
+
+	}else {
 	JOptionPane.showMessageDialog(null, "WRONG.");
+	JOptionPane.showMessageDialog(null, "You get deducted.....");
+	JOptionPane.showMessageDialog(null,score-2);
+	JOptionPane.showMessageDialog(null,"Your score is...");
+JOptionPane.showMessageDialog(null,score=-2);}
+
+JOptionPane.showMessageDialog(null,"What is responsible for your voice in your respirtatory system?");
+String answer2 = JOptionPane.showInputDialog("What is your answer");
+if(answer2.equals("your larynx")){
+	JOptionPane.showMessageDialog(null, "CORRECT");
+	JOptionPane.showMessageDialog(null,"Your score is...");
+JOptionPane.showMessageDialog(null,score=5);
+
+
+
+
+	}else {
+	JOptionPane.showMessageDialog(null, "WRONG.");
+	JOptionPane.showMessageDialog(null, "You get deducted.....");
+	JOptionPane.showMessageDialog(null,score-59);
+	JOptionPane.showMessageDialog(null,"Your score is...");
+JOptionPane.showMessageDialog(null,score);
+
+
+
 
 }
 		
@@ -32,6 +61,7 @@ else {
 
 		// 2. Make a pop up to show the score.
 		
-	
+	}
+}
 
 
